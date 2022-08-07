@@ -15,6 +15,9 @@ body {
     padding-top: 25px;
 }
 
+.navbar-nav {
+    background-color: aliceblue;
+}
 
 .navbar-brand h1 {
     font-family: 'Lora',serif;
@@ -43,18 +46,24 @@ body {
     vertical-align: middle;
 }
 
+
+
 #nav-list {
     margin-top: 10px;
-    background-color: aliceblue;
 }
 
 #nav-list a{
     color:#951c49;
     text-align: center;
+    border-top: 1px solid black;
 }
 
 #nav-list a:hover{
     background: #E7E7E7;
+}
+
+#nav-list li:nth-child(1) a{
+    border-top: 0px solid black;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
@@ -70,4 +79,15 @@ body {
     height: 1000px;
     background-color: grey;
     margin-top: 10px;
+}
+
+.tile-title{
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+.tile-content{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
